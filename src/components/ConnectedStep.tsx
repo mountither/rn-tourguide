@@ -18,6 +18,8 @@ interface Props {
   borderRadius?: number
   keepTooltipPosition?: boolean
   tooltipBottomOffset?: number
+  buttonVisible?: boolean
+  extendAction?: () => void
 }
 
 export class ConnectedStep extends React.Component<Props> {
